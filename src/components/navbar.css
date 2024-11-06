@@ -1,0 +1,22 @@
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: hsl(0, 1%, 66%) !important;
+  border-radius: 3px;
+  padding: 15px;
+  margin: 15px;
+}
+.navbar-nav:hover .nav-item .nav-link:not(:hover) {
+  filter: blur(2px);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.navbar-nav .nav-item .nav-link {
+  filter: none;
+  opacity: 1;
+  transition: 0.3s;
+}
+.navbar-brand:hover {
+  border: 2px solid white;
+  padding: 8px;
+  transition: 0.4s;
+  border-radius: 5px;
+}

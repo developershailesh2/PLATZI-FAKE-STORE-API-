@@ -1,0 +1,22 @@
+.expore-page {
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+  font-family: "Times New Roman", Times, serif, Arial, Helvetica, sans-serif;
+  background-image: url("./images/new_img.jpg");
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  background-position: center;
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  border-radius: 12px;
+}
+.text-img {
+  text-shadow: 2px 2px 4px rgba(255, 254, 254, 0.489);
+}
+.link-platzi {
+  text-decoration: none;
+  font-weight: bold;
+  color: hsl(240, 60%, 67%);
+}
